@@ -15,7 +15,7 @@ Make sure you install and ready use node js in your computer, open your terminal
 
 We will make a reel world application in this article communicate swift and socket-io. Basically, our app connect local socket server and listen it on `fetched-curreny-list` channel. If get any response on channel reload list again. Every minute app keep try to fetch for new list from server. Server listen to app on `get-new-currency-list` If get any request response a new list to app
 
-![Simulator Screen Shot - iPhone 13 mini - 2021-12-23 at 22.08.17.png](SwiftUI%20and%20Nodejs%20communication%20fce1005cbbe449729082f9c334837240/Simulator_Screen_Shot_-_iPhone_13_mini_-_2021-12-23_at_22.08.17.png)
+![App](https://github.com/erdemildiz/socket-demo-app/blob/main/images/Simulator_Screen_Shot_-_iPhone_13_mini_-_2021-12-23_at_22.08.17.png)
 
 He we go...
 
@@ -23,13 +23,13 @@ He we go...
 
 To create SwiftUI app, choose app and set a name 
 
-![Choos app](SwiftUI%20and%20Nodejs%20communication%20fce1005cbbe449729082f9c334837240/Screen_Shot_2021-12-19_at_13.41.11.png)
+![Choose app](https://github.com/erdemildiz/socket-demo-app/blob/main/images/Screen_Shot_2021-12-19_at_13.41.11.png)
 
 Choos app
 
 Set **Interface SwiftUI** 
 
-![Set interface](SwiftUI%20and%20Nodejs%20communication%20fce1005cbbe449729082f9c334837240/Screen_Shot_2021-12-19_at_12.24.11.png)
+![Set interface](https://github.com/erdemildiz/socket-demo-app/blob/main/images/Screen_Shot_2021-12-19_at_12.24.11.png)
 
 Set interface
 
