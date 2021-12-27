@@ -9,7 +9,7 @@ const io = new Server(server, {
   allowEIO3: true,
 });
 
-const apiKey = "d565ef5b-18bc-4920-854c-db243b25c5f2";
+const apiKey = "{{ API_KEY }}";
 const limit = 10;
 const currencyListUrl = `https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest?CMC_PRO_API_KEY=${apiKey}&limit=${limit}`;
 
