@@ -23,7 +23,7 @@ io.on("connection", (socket) => {
 
 const fetchList = (socket) => {
   fetchCurrencList().then((currencyList) => {
-    socket.emit("fetched-curreny-list", { list: currencyList });
+    socket.emit("fetched-currency-list", { list: currencyList });
   });
 };
 
