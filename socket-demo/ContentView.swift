@@ -48,7 +48,7 @@ extension ContentView {
     private func setupSocketConneciton() {
         let socket = socketManager.defaultSocket
         socket.on(clientEvent: .connect) { data, ack in
-            socket.on("fetched-curreny-list") { data, ack in
+            socket.on("fetched-currency-list") { data, ack in
                 guard let receicedData = data[0] as? NSMutableDictionary,
                 let list = receicedData.object(forKey: "list") as? NSDictionary else {
                   return
